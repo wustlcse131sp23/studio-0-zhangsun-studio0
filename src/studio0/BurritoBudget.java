@@ -11,7 +11,7 @@ public class BurritoBudget {
 		int totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
 		double averageWeeklyBurritos = totalBurritos / 4.0;
 		
-		double burritoPrice = 7.50;
+		double burritoPrice = 7.0;
 		double averageWeeklyPrice = averageWeeklyBurritos * burritoPrice;
 		
 		System.out.println("You have spent an average of $" + averageWeeklyPrice + " per week on burritos.");
